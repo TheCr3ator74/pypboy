@@ -3,7 +3,7 @@ import config
 import os
 
 # Init framebuffer/touchscreen environment variables
-os.putenv('SDL_VIDEODRIVER', 'fbdev')
+os.putenv('SDL_VIDEODRIVER', 'directfb')
 os.putenv('SDL_FBDEV'      , '/dev/fb1')
 os.putenv('SDL_MOUSEDRV'   , 'TSLIB')
 os.putenv('SDL_MOUSEDEV'   , '/dev/input/touchscreen')
